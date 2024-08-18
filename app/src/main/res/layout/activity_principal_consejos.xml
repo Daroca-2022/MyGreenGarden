@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".PrincipalConsejos">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_weight="1"
+            android:foregroundGravity="fill_horizontal|clip_horizontal"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/titulo1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewConsejos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Consejos"
+            android:textAlignment="center"
+            android:textColor="#ABCE00"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="423dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textViewInfoTipsCultivos"
+            android:layout_width="275dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="25dp"
+            android:background="#E4E4E4"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Seleccione un cultivo"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+
+        <Spinner
+            android:id="@+id/spinnerCultivos"
+            android:layout_width="275dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="30dp"
+            android:background="#E4E4E4"
+            android:fontFamily="sans-serif-condensed"
+            android:spinnerMode="dialog"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:id="@+id/textViewIInfoTipsCultivos"
+            android:layout_width="283dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_border"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Seleccione un cultivo"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:scaleType="centerCrop">
+
+
+        <ImageView
+            android:id="@+id/imageViewAtras"
+            android:layout_width="133dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/botonatras" />
+
+        <ImageView
+            android:id="@+id/imageViewCasita"
+            android:layout_width="133dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/botoncasita" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/footertodos" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+

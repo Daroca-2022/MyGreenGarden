@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_weight="1"
+            android:foregroundGravity="fill_horizontal|clip_horizontal"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/titulo1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="316dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:ems="12"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:textColor="#6771A8" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="316dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="316dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:ems="12"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#6771A8"
+            android:textColorLink="#648C01" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewRegistrarAqui"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="No tienes usuario, registrate aquí"
+            android:textAlignment="center"
+            android:textColor="#4D6ABB"
+            android:textIsSelectable="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonIniciarSesion"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#648C01"
+            android:fontFamily="sans-serif-condensed"
+            android:text="INICIAR SESIÓN" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewAtras"
+            android:layout_width="111dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/botonatras" />
+
+        <Space
+            android:layout_width="298dp"
+            android:layout_height="13dp"
+            android:layout_weight="800" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewfootertodos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="fill_horizontal|clip_horizontal"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/footertodos" />
+    </LinearLayout>
+
+</LinearLayout>
